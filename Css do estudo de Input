@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 50px;
+    font-size: 17;
+}
+
+h1 {
+    font-family: Explorer;
+}
+
+table {
+    width: 600px;
+    
+}
+
+table thead {
+    background-color: mediumseagreen;
+}
+
+table tbody {
+    background-color:bisque;
+}
+
+th, td {
+    padding: 9px;
+    text-align: left;
+}
+
+tbody tr :hover {
+    background-color: gainsboro;
+}
+
+tbody td {
+    border-bottom: 2px solid black;
+}
+
+tbody tr:nth-child(event) {
+    background-color: rgb(142, 23, 23)
